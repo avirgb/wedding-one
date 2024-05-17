@@ -110,8 +110,7 @@ body {
     }
 
     .simply-countdown > .simply-section {
-        padding: 45px;
+        padding: 0;
         margin: 4;
-        justify-content: center;
     }
 }
