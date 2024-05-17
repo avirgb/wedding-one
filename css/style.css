@@ -94,7 +94,7 @@ body {
 /* Tablet */
 @media (max-width: 768px) {
     html {
-        font-size: 62.5%;
+        font-size: 70%;
     }
 
     .simply-countdown > .simply-section {
@@ -106,11 +106,22 @@ body {
 /* Handphone */
 @media (max-width: 576px) {
     html {
-        font-size: 60%;
+        font-size: 65%;
     }
 
     .simply-countdown > .simply-section {
-        padding: 0;
+        padding: 30px;
         margin: 4;
+    }
+}
+/* Handphone */
+@media (max-width: 400px) {
+    /* html {
+        font-size: 65%;
+    } */
+
+    .simply-countdown > .simply-section {
+        padding: 45px;
+        margin: 2;
     }
 }
