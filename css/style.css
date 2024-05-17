@@ -116,12 +116,13 @@ body {
 }
 /* Handphone */
 @media (max-width: 400px) {
-    /* html {
-        font-size: 65%;
-    } */
+    html {
+        font-size: 40%;
+    }
 
     .simply-countdown > .simply-section {
-        padding: 45px;
-        margin: 2;
+        padding: 10px;
+        margin: auto;
+        /* text-align: center; */
     }
 }
