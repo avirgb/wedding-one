@@ -15,13 +15,19 @@
     <script src="js/snowfall.min.js"></script>
 
     <link rel="stylesheet" href="css/style.css">
+
+    <script>
+      window.onload = function() {
+        var context = new AudioContext();
+      }
+      </script>
   </head>
   <body>
 
-    <audio autoplay src="audio/backsound.mp3"></audio>
-    <!-- <audio loop autoplay >
-      <source src="audio/backsound.mp3" type="audio/mpeg">
-    </audio> -->
+    <audio autoplay src="audio/backsound.mp3">
+      <!-- <source  type="audio/mp3"> -->
+    </audio>
+    
     <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
         <main>
             <h4>Kepada Bapak/Ibu/Saudara/i,</h4>
