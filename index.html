@@ -75,7 +75,7 @@
           <div class="col-lg-6">
             <div class="row">
               <div class="col-8 text-end">
-                <h3>Paijhon</h3>
+                <h3>Paijho</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit temporibus ipsa debitis eaque culpa voluptatibus?</p>
                 <p>Putra dari Bpk. Lorem <br> dan <br> Ibu. Ipsum</p>
               </div>
@@ -162,6 +162,66 @@
           </div>
         </div>
     </section>
+
+    <section id="story" class="story">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>Bagaimana Cinta Kami Bersemi</span>
+            <h2>Cerita Kami</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum odit placeat possimus excepturi mollitia odio.</p>
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <ul class="timeline">
+              <li >
+                <div class="timeline-img" style="background-image: url(img/kradio.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Pertama Bertemu</h3>
+                    <span>15 Agustus 2017</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed qui atque, nulla nobis facere temporibus!</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="timeline-inverted">
+                <div class="timeline-img" style="background-image: url(img/serius.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Mulai Serius</h3>
+                    <span>01 Mei 2024</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed qui atque, nulla nobis facere temporibus!</p>
+                  </div>
+                </div>
+              </li>
+
+              <li >
+                <div class="timeline-img" style="background-image: url(img/tunangan.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Tunangan</h3>
+                    <span>10 Mei 2024</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed qui atque, nulla nobis facere temporibus!</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
     
 
 
@@ -185,12 +245,26 @@
         });
       </script>
 
-<script>
-  function play() {
-    var audio = document.getElementById("audio");
-    audio.play();
-  }
-</script>
+      <script>
+        function play() {
+          var audio = document.getElementById("audio");
+          audio.play();
+        }
+      </script>
+
+      <script>
+        const stickyTop = document.querySelector('.sticky-top');
+        const offcanvas = document.querySelector('.offcanvas');
+
+        offcanvas.addEventListener('show.bs.offcanvas', function () {
+          stickyTop.style.overflow= 'visible';
+        });
+
+        
+        offcanvas.addEventListener('hidden.bs.offcanvas', function () {
+        stickyTop.style.overflow= 'hidden';
+        })
+      </script>
   </body>
   <script>
     snowFall.snow(document.querySelector(".hero"), {
